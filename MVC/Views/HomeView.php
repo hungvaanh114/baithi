@@ -9,7 +9,7 @@
 	<div class="conteiner" style="background-color: #e5e4e4; ">
 		<div style="text-align: center;">
 			<h2 style="color: blue">
-				CHƯƠNG TRÌNH QUẢN LÝ SÁCH</h2>
+				CHƯƠNG TRÌNH QUẢN LÝ Cà PHÊ</h2>
 		</div>
 		<div style="text-align: center">
 			<img src="http://localhost/QLS_MVC_API/MVC/Public/images/anhnensach.jpg " style="width: 80%;
