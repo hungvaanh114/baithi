@@ -100,28 +100,11 @@
 		</div>
 		<div class="menu row">
 			<ul>
-				<li><a href="http://localhost/QLS_MVC_API/Home">Trang chủ</a></li>
-				<li><a href="http://localhost/QLS_MVC_API/Home">Quản lý sách</a>
-					<ul>
-						<li><a href="http://localhost/QLS_MVC_API/Sach">Thêm sách</a></li>
-						<li><a href="http://localhost/QLS_MVC_API/Danhsachsach">Danh sách Sách</a></li>
-					</ul>
-				</li>
+				
 				<li><a href="http://192.168.183.128/QLS_MVC_API/Home">Quản lý user</a>
 					<ul>
 						<li><a href="http://192.168.183.128/baithi/User">Thêm user</a></li>
 						<li><a href="http://192.168.183.128/baithi/Danhsachuser">Danh sách user</a></li>
-					</ul>
-				</li><li><a href="http://localhost/QLS_MVC_API/Home">Quản lý thể loại</a>
-					<ul>
-						<li><a href="http://localhost/QLS_MVC_API/Theloai">Thêm thể loại</a></li>
-						<li><a href="http://localhost/QLS_MVC_API/Danhsachtheloai">Danh sách thể loại</a></li>
-					</ul>
-				</li>
-				<li><a href="http://localhost/QLS_MVC_API/Home">Quản lý đơn hàng</a>
-					<ul>
-						<li><a href="http://localhost/QLS_MVC_API/Donhang">Thêm đơn hàng</a></li>
-						<li><a href="http://localhost/QLS_MVC_API/Danhsachdonhang">Danh sách đơn hàng</a></li>
 					</ul>
 				</li>
 				<li><a href="http://192.168.183.128/baithi/Login"><img src="http://192.168.183.128/baithi/MVC/Public/images/top_menu_logout.gif">&nbsp;&nbsp;Thoát</a></li>
