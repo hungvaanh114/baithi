@@ -1,4 +1,3 @@
 <?php
-include_once 'baithi/MVC/Core/App.php';
-include_once 'baithi/MVC/Core/Controller.php';
-
+include_once './MVC/Core/App.php';
+include_once './MVC/Core/Controller.php';
