@@ -10,7 +10,7 @@
     </h6>
     <?php
     foreach ($data['edit'] as $row) { ?>
-        <form method="post" style="height: 350px;    padding-bottom: 20px;" action="http://localhost/QLS_MVC_API/Danhsachuser/UpdateU/<?php echo $row['taikhoan'] ?>">
+        <form method="post" style="height: 350px;    padding-bottom: 20px;" action="http://192.168.183.128/QLS_MVC_API/Danhsachuser/UpdateU/<?php echo $row['taikhoan'] ?>">
             <!-- Vertical -->
             <div class="form-group">
             <div style="color: red;" id="thongbao"></div>

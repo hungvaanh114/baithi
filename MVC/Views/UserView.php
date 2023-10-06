@@ -11,7 +11,7 @@
         }
         ?>
     </h6>
-    <form method="post" action="http://localhost/QLS_MVC_API/User/themuser">
+    <form method="post" action="http://192.168.183.128/QLS_MVC_API/User/themuser">
         <!-- Vertical -->
         <div class="form-group" style="height: 400px;">
             <div style="color: red;" id="thongbao"></div>

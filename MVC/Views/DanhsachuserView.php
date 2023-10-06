@@ -1,7 +1,7 @@
 <div class="container-fluid mt-3">
     <h2 style="text-align: center;color: blue;">THÔNG TIN TÌM KIẾM</h2>
 
-    <form method="post" action="http://localhost/QLS_MVC_API/Danhsachuser/timkiemuser">
+    <form method="post" action="http://192.168.183.128/QLS_MVC_API/Danhsachuser/timkiemuser">
         <!-- Vertical -->
         <div class="form-group">
             <label>Tài khoản</label>
