@@ -11,7 +11,7 @@
 
 		.header {
 			height: 100px;
-			background: #251cfb url("http://localhost/QLS_MVC_API/Public/images/logo.png") no-repeat;
+			background: #251cfb url("http://192.168.183.128/baithi/Public/images/logo.png") no-repeat;
 			padding: 10px 35px;
 			margin-right: 0px;
 		}
@@ -107,10 +107,10 @@
 						<li><a href="http://localhost/QLS_MVC_API/Danhsachsach">Danh sách Sách</a></li>
 					</ul>
 				</li>
-				<li><a href="http://localhost/QLS_MVC_API/Home">Quản lý user</a>
+				<li><a href="http://192.168.183.128/QLS_MVC_API/Home">Quản lý user</a>
 					<ul>
-						<li><a href="http://localhost/QLS_MVC_API/User">Thêm user</a></li>
-						<li><a href="http://localhost/QLS_MVC_API/Danhsachuser">Danh sách user</a></li>
+						<li><a href="http://192.168.183.128/baithi/User">Thêm user</a></li>
+						<li><a href="http://192.168.183.128/baithi/Danhsachuser">Danh sách user</a></li>
 					</ul>
 				</li><li><a href="http://localhost/QLS_MVC_API/Home">Quản lý thể loại</a>
 					<ul>
@@ -124,7 +124,7 @@
 						<li><a href="http://localhost/QLS_MVC_API/Danhsachdonhang">Danh sách đơn hàng</a></li>
 					</ul>
 				</li>
-				<li><a href="http://localhost/QLS_MVC_API/Login"><img src="http://localhost/QLS_MVC_API/MVC/Public/images/top_menu_logout.gif">&nbsp;&nbsp;Thoát</a></li>
+				<li><a href="http://192.168.183.128/baithi/Login"><img src="http://192.168.183.128/baithi/MVC/Public/images/top_menu_logout.gif">&nbsp;&nbsp;Thoát</a></li>
 			</ul>
 			
 		</div>

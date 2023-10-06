@@ -1,7 +1,7 @@
 <div class="container-fluid mt-3">
     <h2 style="text-align: center;color: blue;">THÔNG TIN TÌM KIẾM</h2>
 
-    <form method="post" action="http://192.168.183.128/QLS_MVC_API/Danhsachuser/timkiemuser">
+    <form method="post" action="http://192.168.183.128/baithi/Danhsachuser/timkiemuser">
         <!-- Vertical -->
         <div class="form-group">
             <label>Tài khoản</label>
@@ -13,7 +13,7 @@
             <div style="text-align: center;">
                 <div class="input-group-append" style="display: block;">
                     <button class="btn btn-secondary" type="submit" name="btnSearch" style="    background-color: #ffae68;">
-                        <i><img src="http://localhost/QLS_MVC_API/MVC/Public/images/search.png"></i> Tìm kiếm
+                        <i><img src="http://192.168.183.128/baithi/MVC/Public/images/search.png"></i> Tìm kiếm
                     </button> &nbsp;
                
                 </div>
@@ -52,10 +52,10 @@
                     <td>' . $row["email"] . '</td>
                     <td>' . $row["diachi"] . '</td>
                     <td>' . $row["sdt"] . '</td>
-                     <td style="text-align: center"><a href="http://localhost/QLS_MVC_API/Danhsachuser/xoauser/' . $row["taikhoan"] . '">
-                    <img src="http://localhost/QLS_MVC_API/MVC/Public/images/deleteStand.png">
+                     <td style="text-align: center"><a href="http://192.168.183.128/baithi/Danhsachuser/xoauser/' . $row["taikhoan"] . '">
+                    <img src="http://192.168.183.128/baithi/MVC/Public/images/deleteStand.png">
                     </a></td>
-                    <td><a href="http://localhost/QLS_MVC_API/Danhsachuser/edituser/' . $row["taikhoan"] . '" class="btn btn-outline-priidry">Edit</a></td>
+                    <td><a href="http://192.168.183.128/baithi/Danhsachuser/edituser/' . $row["taikhoan"] . '" class="btn btn-outline-priidry">Edit</a></td>
                 </tr>'
                         
                 ;

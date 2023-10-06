@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<title>Login</title>
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="http://localhost/QLS_MVC_Api/MVC/Public/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="http://192.168.183.128/baithi/MVC/Public/css/styles.css">
 	<style type="text/css">
 		* {
 			margin: 0px
@@ -14,7 +14,7 @@
 
 		.header {
 			height: 100px;
-			background: #251cfb url("http://localhost/QLS_MVC_API/Public/images/logo.png") no-repeat;
+			background: #251cfb url("http://192.168.183.128/QLS_MVC_API/Public/images/logo.png") no-repeat;
 			padding: 10px 35px;
 			margin-right: 0px;
 			text-align: center;
@@ -24,11 +24,11 @@
 </head>
 <body style="background: #8fdff7; height: 100% ; width:100%">
 <div class="header">
-			<h1>QUẢN LÝ SÁCH</h1>
+			<h1>QUẢN LÝ CÀ PHÊ</h1>
 		</div>
 	<div class="login" style="width:600px;margin:auto;position:relative;">
 			<center><i class="fa fa-user-circle" aria-hidden="true" style="font-size:100px;"></i></center>
-			<form class="form-horizontal" action="http://localhost/QLS_MVC_API/Login/Loginn" method="post" style="    margin-left: 125px;">
+			<form class="form-horizontal" action="http://192.168.183.128/QLS_MVC_API/Login/Loginn" method="post" style="    margin-left: 125px;">
 				<div class="form-group">
 				    <label for="inputPassword3" class="col-sm-3 control-label">&nbsp</label>
 				    <div class="col-sm-8">
