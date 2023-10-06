@@ -14,7 +14,7 @@
 
 		.header {
 			height: 100px;
-			background: #251cfb url("http://192.168.183.128/QLS_MVC_API/Public/images/logo.png") no-repeat;
+			background: #251cfb url("http://192.168.183.128/baithi/Public/images/logo.png") no-repeat;
 			padding: 10px 35px;
 			margin-right: 0px;
 			text-align: center;
@@ -28,7 +28,7 @@
 		</div>
 	<div class="login" style="width:600px;margin:auto;position:relative;">
 			<center><i class="fa fa-user-circle" aria-hidden="true" style="font-size:100px;"></i></center>
-			<form class="form-horizontal" action="http://192.168.183.128/QLS_MVC_API/Login/Loginn" method="post" style="    margin-left: 125px;">
+			<form class="form-horizontal" action="http://192.168.183.128/baithi/Login/Loginn" method="post" style="    margin-left: 125px;">
 				<div class="form-group">
 				    <label for="inputPassword3" class="col-sm-3 control-label">&nbsp</label>
 				    <div class="col-sm-8">
