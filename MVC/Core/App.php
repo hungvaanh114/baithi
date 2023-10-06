@@ -10,11 +10,11 @@ class App
         $arr = $this->Urlprocess();
 
         // Xử lý Controller
-        if (file_exists("./MVC/Controllers/" . $arr[0] . ".php")) {
+        if (file_exists("baithi/MVC/Controllers/" . $arr[0] . ".php")) {
             $this->controller = $arr[0];
             unset($arr[0]);
         }
-        require_once "./MVC/Controllers/" . $this->controller . ".php";
+        require_once "baithi/MVC/Controllers/" . $this->controller . ".php";
         $this->controller = new $this->controller;
 
         // Xử lý Action

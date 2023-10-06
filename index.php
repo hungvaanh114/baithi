@@ -1,4 +1,4 @@
 <?php
 session_start();
-include_once './Bridge.php';
+include_once 'baithi/Bridge.php';
 $myApp = new App();
