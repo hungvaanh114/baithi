@@ -96,7 +96,7 @@
 
 	<div class="container form-group" style="background-color: #e5e4e4 ;    padding-bottom: 25%;">
 		<div class="header row">
-			<h1>QUẢN LÝ SÁCH</h1>
+			<h1>QUẢN LÝ CÀ PHÊ</h1>
 		</div>
 		<div class="menu row">
 			<ul>
@@ -171,10 +171,10 @@
                     <td>' . $row["email"] . '</td>
                     <td>' . $row["diachi"] . '</td>
                     <td>' . $row["sdt"] . '</td>
-                     <td style="text-align: center"><a href="http://192.168.183.128/baithi/Danhsachuser/xoauser/' . $row["taikhoan"] . '">
+                     <td style="text-align: center"><a href="http://192.168.183.128/baithi/MVC/Controllers/Danhsachuser/xoauser/' . $row["taikhoan"] . '">
                     <img src="http://192.168.183.128/baithi/MVC/Public/images/deleteStand.png">
                     </a></td>
-                    <td><a href="http://192.168.183.128/baithi/Danhsachuser/edituser/' . $row["taikhoan"] . '" class="btn btn-outline-priidry">Edit</a></td>
+                    <td><a href="http://192.168.183.128/baithi/MVC/Controllers/Danhsachuser/edituser/' . $row["taikhoan"] . '" class="btn btn-outline-priidry">Edit</a></td>
                 </tr>'
                         
                 ;
