@@ -111,13 +111,9 @@
 			</ul>
 			
 		</div>
-		<div>Tài khoản : <?php echo $_SESSION ["taikhoan1"] ?></div>
+		<div>Tài khoản : <?php echo $_SESSION ["taikhoan1"] ?>
 		<!-- Gọi các trang khác -->
-		
-
-	</div>
-
-<div class="container-fluid mt-3">
+		<div class="container-fluid mt-3">
     <h2 style="text-align: center;color: blue;">THÔNG TIN TÌM KIẾM</h2>
 
     <form method="post" action="http://192.168.183.128/baithi/MVC/Controllers/Danhsachuser/timkiemuser">
@@ -185,8 +181,12 @@
 
 
         </table>
-
+        </div>
     </form>
+
+	</div>
+
+
 
 
 </div>
